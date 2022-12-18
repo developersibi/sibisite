@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+  <style>
+    body{
+      background-image: url(https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+      background-size: cover;
+    }
+    
+    .hero{
+      
+      width: 100%;
+      background-color:#feaaa6 ;
+      
+      
+    }
+    nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    
+    }
+    h2{
+      color: black;
+      font-size: 23px;
+      font-family: "consalas", sans-serif;
+      cursor: pointer;
+      
+    }
+    span{
+      color: red ;
+      
+    }
+    .logo{
+      margin-right: 0px;
+      margin-left: 20PX;
+    }
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 0px 22px 0px 12px ;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: black;
+    }
+    nav ul li a:hover{
+      background-color:yellow;
+      font-size: 17px ;
+    }
+    label{
+      width: 200px;
+      display: inline-block;
+      padding-right:100px;
+      margin-right: 100px;
+      letter-spacing: 2px;
+      margin-left: 25px;
+      margin-bottom: 4px;
+      margin-top: 5px;
+
+    }
+    input{
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 5px;
+    }
+    form{
+      border-style: solid;
+      border-width: 3px;
+      margin-right: 380px;
+      margin-left: 450px;
+      margin-top: 30px;
+      background-color: #feaaa6 ;
+    }
+    .button input{
+      width: 100px; 
+         height: 35 px;
+        font-size: 100%;
+         margin-bottom: 23px;
+         margin-top: 15px;
+        margin-left: 25%;
+        cursor: pointer;
+
+    }
+    .button input :hover {
+      background-color: black;
+
+
+
+
+    }
+    h2{
+      padding-left: 95px;
+    }
+   
+    #sub:hover{
+background-color: aqua;
+    }
+    #res :hover{
+      background-color: aqua;
+    }
+
+    
+    
+
+ 
+  
+    
+     
+    
+  </style>
+</head>
+<body style="font-family:Josefin, sans-serif  ;">
+ 
+  <marquee behavior="" direction="left to right "><h2>DEVI ACADEMY WELCOMES YOU</h2></marquee>
+  <div class="hero">
+    <nav>
+      <h2 class="logo">DEVI <span>ACADEMY</span></h2>
+      <ul>
+       
+        <li><a href="">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Curriculam</a></li>
+        <li><a href="">FEE</a></li>
+      </ul>
+
+
+
+
+
+
+    </nav>
+  </div>
+    <h2 ALIGN="CENTER">ADMISSION FORM</h2>
+    <form action="">
+      <label class="stu" for="name"> <b>Student's Name:</b>
+      </label>
+      <input type="text"> <br> <br>
+
+      <label for=""><b>Father's Name :</b></label>
+      <input type="text"> <br><br>
+      <label for=""><b>Mother's Name:</b></label>
+      <input type="text"><br><br>
+      <label for=""><b>DOB:</b></label>
+      <input type="date"> <br><br>
+      <label for=""><b>Gender:</b> </label>
+      <input type="radio" name="r1" id="">Male
+      <input type="radio" name="r1" id="">Female <br><br>
+      <label for=""><b>Place of Birth:</b></label>
+      <input type="text"><br><br>
+      <label for=""><b>City:</b>
+      </label>
+      <select name="" id="">
+        <option value="">Jaipur</option> 
+        <option value="">Bengalur</option>
+        <option value="">Chennai</option>
+        <option value="">Kolkata</option>
+        <option value="">Noida</option>
+        <option value="">Mumbai</option>>
+        
+      </select> <br><br>
+      <label for=""><b>School studied previously:</b></label>
+      <input type="text"> <br>
+      <div class="button">
+        <input type="submit" value="Submit" id="sub">
+        <input type="submit" value="Reset" id="res"> 
+
+      </div>
+       
+      
+
+      
+      
+      
+
+
+
+
+
+    </form>
+     
+
+
+
+
+  
+</body>
+</html>

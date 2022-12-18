@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medicore</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  
+  
+</head>
+
+<style>
+  body{ 
+    font-family: 'Poppins', sans-serif;
+  }
+ .navbar
+  {
+ 
+   
+    padding: 15px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      
+  }
+  .logo{
+    width: 135px;
+    cursor: pointer;
+  
+
+  }
+  .navbar ul li{
+    list-style: none;
+    display: inline-block ;
+    margin: 0 15px;
+    
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+   
+  }
+  a:hover{
+    font-size: 20px;
+    font-style: bold;
+    
+    
+     
+  }
+  .content h1{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+  
+    }
+  .content p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+  }
+  .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .content .textbar{ 
+    padding: 12px 34px 33px 114px;
+
+  }
+  .imgbox .yoga{ 
+    width: 430px;
+  }
+  .content a{
+    display: inline-block;
+    border-style: solid;
+    text-decoration: none;
+    border-radius: 20px;
+    background:white;
+    color: black;
+    font-size: 24px;
+    padding: 6px 19px;
+  
+  }
+  .about{
+    
+    background-position:fixed ;
+    background-size: 100%;
+    font-size: 31px;
+    font-family: 'Poppins', sans-serif;
+    
+        
+  }
+
+  .about-text{
+    width: 550px;
+        
+    }
+
+    .main{
+      width: 1130px;
+      max-width: 95%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+ 
+    }
+    .about-text h3{
+      font-size: 50px;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+      
+    }
+    .about-text p{
+      letter-spacing: 1px;
+      line-height: 28px;
+      font-size: 17px;
+      margin-bottom: 40px;
+    }
+    button{
+      text-decoration: none;
+      border-radius: 30px;
+      color: black;
+      border: 2px solid transparent;
+      font-weight: 500;
+      padding: 13px 30px;
+      transition:.3s;
+      cursor: pointer;
+
+    }
+    button:hover{
+      background-color: black;
+      color: white;
+      
+        
+    }
+    section{
+      width: 70%;
+      margin: 70px auto;
+      font-family: "poppins",sans-serif;
+      font-size: 20px;
+    }
+    .title{
+      text-align: center;
+      font-size:30px ;
+
+    }
+    .row{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: space-between;
+    }
+    .row .col img{
+      width: 95%;
+    }
+
+    .col img:hover{
+      transform: rotate(10deg);
+    }
+    footer{
+      width: 100%;
+      background: black;
+      color: white;
+      
+    }
+    .main-content{
+      display: flex;
+      justify-content: space-between;
+    }
+    .main-content .left-box{
+      flex-basis: 20%;
+      padding: 10px 20px;
+    }
+    .left-box h2{
+      color: red;
+      font-size: 1.125rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .center-box h2{
+      padding: 10px 5px 3px ;
+      color: red;
+      
+    }
+    .right-box h2{
+      padding: px 24px ;
+      color: red;
+    }
+    .but a{
+      text-decoration: none;
+      border-style: solid;
+      border-radius: 20px;
+      padding: 13px;
+      background: rgb(97, 92, 92);
+      color: white;
+     
+    }
+    .btn a{
+      text-decoration: none;
+      color: white;
+      border-style: solid;
+      border-radius: 20px;
+      padding: 0 12px 3px;
+    
+    }
+    .email input
+    {
+      border: none;
+      border-bottom: 0, solid, #fff;
+      background: transparent;
+      height: 40px;
+      color: white;
+      font-size: 17px;
+    } 
+    .msg textarea{
+      border: none;
+      border-bottom: 0, solid, #fff;
+      
+      height: 40px;
+
+      font-size: 17px;
+
+    }
+    .yoga-img{
+      width: 265px;
+    }
+    
+
+</style>
+<body style="background-color:#ffff;">
+    <div class="navbar">
+      <img src="logo.png" class="logo">
+      <ul>
+        <li><a href="#land-page">Home</a></li>
+        <li><a href="#aboutcore">About us</a></li>
+        <li><a href="#bookclassdude">Book Classes</a></li>
+        <li><a href="http://127.0.0.1:5500/offer-page.html">Offers</a></li>
+        <li><a href="http://127.0.0.1:5500/contact%20us.html#aboutcore">Contact</a></li>
+      </ul>
+
+    </div>
+    <div class="content" id="land-page" id="">
+    <div class="textbar" >
+        <h1>MEDITATE FOR <br> PEACEFUL LIFE </h1>
+      <P>Medicore can be defined as a set of techniques <br> that are intended to encourage <br> a heightenedstate of awareness and focused attention.</P>
+      <button>Book Now</button>
+      </div>
+    <div class="imgbox">
+        <img src="landpage.png" class="yoga">
+    </div>
+       
+ 
+    
+    </div> <hr>
+   <section class="about" id="aboutcore">
+    <div class="main">
+      <img src="about.jpg">
+      <div class="about-text">
+        <h3>About Medicore</h3>
+        <p>
+          Medicore is a Virtual Meditation studio dedicated to teaching and guiding individuals in meditation and mindfulness practices.  We have the tools and understanding to assist you in creating the life you imagine and get a renewed sense of self.  Our commitment is to assist you in emotional & spiritual healing; also provide you with accountability, understanding, and support.</p>
+         
+
+      </div>
+    </div> <hr>
+   </section>
+   <section>
+    <div class="title" id="bookclassdude">
+      <h1>Book your class now !</h1>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="Meditate-2.png" >
+        <h4>Meditation for Beginners</h4>
+        <p>Duration: 2hrs <br>Price:7$</p>
+        <div class="but">
+          <a href="tutor-1.html">Book Now</a>
+        </div>
+
+      </div>
+      <div class="col">
+        <img src="Meditate-1.png" >
+        <h4>Powerful Mantras </h4>
+        <p>Duration: 1hr <br>Price:5$</p>
+        <div class="but">
+          <a href="http://127.0.0.1:5500/tutor%202.html">Book Now</a>
+        </div>
+
+        
+
+  
+        </div>
+        <div class="col">
+          <img src="meditate-3.png" >
+          <h4>Reduce stress, Anxiety </h4>
+          <p>Duration: 2hrs <br>Price:13$</p>
+          <div class="but">
+            <a href="http://127.0.0.1:5500/tutor-3.html">Book Now</a>
+          </div>
+  
+    
+          </div> 
+      </div>
+      
+    </div>
+   </section> <br>
+   <section>
+    <div class="title" id="bookclassdude">
+      <h1></h1>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="meditate-4.png" >
+        <h4>Devotional Meditation </h4>
+        <p>Duration: 2hrs <br>Price:13$</p>
+        <div class="but">
+          <a href="http://127.0.0.1:5500/tutor-4.html">Book Now</a>
+        </div>
+
+      </div>
+      <div class="col">
+        <img src="meditate-5.png" >
+        <h4>How meditates helps you?</h4>
+        <p>Duration: 30hr <br>Price:5$</p>
+        <div class="but">
+          <a href="http://127.0.0.1:5500/tutor-5.html">Book Now</a>
+        <h1></h1>
+        </div>
+
+        
+
+  
+        </div>
+        <div class="col">
+          <div class="yoga-img">
+            <img src="meditate-6.png" >
+          </div>
+          <h4>Yoga Class</h4>
+          <p>Duration: 1hr<br>Price:6$</p>
+          <div class="but">
+            <a href="http://127.0.0.1:5500/tutor-6.html">Book Now</a>
+          </div>
+  
+    
+          </div> 
+      </div>
+      
+    </div>
+   </section> <hr>
+
+   <footer>
+   <div class="main-content">
+    <div class="left-box">
+     <h2>MEDICORE</h2>
+      <div class="contain">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>  Lorem Ipsum has been the industry's standard unknown printer took a gallery of type and scrambled it  to make a type specimen book.</p>
+      </div>
+    </div>
+   
+   <div class="center-box">
+    <h2>ADDRESS</h2>
+    <div class="contain">
+      <div class="place">
+        <span class="text">kk nagar, andhra Pradesh</span>
+      </div>
+      <div class="phone">
+        <span class="text">91+ 6352866869</span>
+      </div>
+      <div class="email">
+        <span class="text">mangabhai999@gmail.com</span>
+      </div>
+    </div>
+   </div>
+   
+   <div class="right-box">
+    <h2>Contact Us</h2>
+    <div class="contain">
+      <form action="#">
+        <div class="email">
+          <div class="text">Email</div>
+          <input type="email" placeholder="xyz@xmail.com">
+        </div>
+        <div class="msg">
+          <div class="text">Message</div>
+          <textarea  cols="25" rows="2" placeholder="message here">
+
+          </textarea>
+        </div>
+        <div class="btn">
+          <a href="#empty">Send</a>
+        </div>
+      </form>
+    </div>
+   </div>  
+  </div> 
+   
+
+  </footer>
+   
+  
+</body>
+</html>
